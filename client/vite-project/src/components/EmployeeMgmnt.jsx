@@ -33,7 +33,6 @@ const EmployeeMgmnt = () => {
     setShowModal(true);
   };
 
-
   const handleSearch = (e) => {
     const data = e.target.value;
     fetchEmployees(data);
