@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BaseUrl = "http://localhost:8080";
+const BaseUrl = "https://emp-mgm-system-1.onrender.com";
 
 export const getAllEmployees = async (search = "", page = 1, limit = 5) => {
   const url = `${BaseUrl}/api/employee?search=${search}&page=${page}&limit=${limit}`;
